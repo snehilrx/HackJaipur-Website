@@ -1,53 +1,34 @@
-- name: Mayank Goyal
-  role: Lead Organizer
-  picture: /images/team/Mayank.jpg
-  twitter: MayankGoyal_
-- name: Rishabh Bansal
-  role: Co Organizer
-  picture: /images/team/rishabh.jpg
-  twitter: rishabhbansal97
-- name: Sumedha Shrivastava
-  role: Coordinator/ Technical Team
-  picture: /images/team/sumedha.jpeg
-  twitter: 
-- name: Shubhangi Gupta
-  role: Technical Team
-  picture: /images/team/shubhangi.jpg
-  twitter: Shubhangi_0304
-- name: Yash Sharma
-  role: Community Team
-  picture: /images/team/yash.jpg
-  twitter: YashSharma___
-- name: Saksham Taneja
-  role: Community Team
-  picture: /images/team/saksham.jpg
-  twitter: sakshamtaneja00
-- name: Moulik Agrawal
-  role: Partnership Lead
-  picture: /images/team/moulik.png
-  twitter: aggmoulik
-- name: Ananya
-  role: Graphic Designer
-  picture: /images/team/ananya.jpeg
-- name: Shivam
-  role: Graphic Designer
-  picture: /images/team/shivam.jpg
-- name: Sagar Vakkala
-  role: Panelist
-  picture: /images/team/sagar.jpg
-  twitter: SagarVakkala
-- name: Sparsh Gupta
-  role: Team
-  picture: /images/team/sparsh.jpeg
-# - name: Ayush Chauhan
-#   role: Team
-#   picture: /images/team/ayush.png
-#   twitter: heyayushh
-# - name: Likkan Chung
-#   role: Tech Team
-#   picture: /images/team/LikkanChung.jpg
-#   twitter: LikkanChung
-# - name: Fraser Wade
-#   role: Tech Team
-#   picture: /images/team/FraserWade.jpg
-#   twitter: LikkanChung
+- name: K R Meghana
+  picture: /images/team/MeghanaKR.png
+- name: Pranav Bansal
+  picture: /images/team/PranavBansal.jpg
+- name: DheerajSaraorgi
+  picture: /images/team/DheerajSaraorgi.jpeg
+- name: Pooja Bhaskara Hegde
+  picture: /images/team/PoojaHegde.jfif
+- name: Anand Chawan
+  picture: /images/team/AnandChawan.jpg
+- name: Krishanu Paul
+  picture: /images/team/KrishanuPaul.jpg
+- name: Karanam Sravya
+  picture: /images/team/SravyaKaranam.jpeg
+- name: Mrinal Raj
+  picture: /images/team/MrinalRaj.jpg
+- name: Akash Ranjan Das
+  picture: /images/team/AkashRanjanDas.jpg
+- name: Sumit Kumar
+  picture: /images/team/SumitKumar.jpg
+- name: Ashutosh Mishra
+  picture: /images/team/AshutoshMishra.jpg
+- name: Adarsh Shukla
+  picture: /images/team/AdarshShukla.jpg
+- name: Amit Kumar
+  picture: /images/team/Amit Kumar.jpg
+- name: Snehil
+  picture: /images/team/Snehil.jpg
+- name: Suyash Shukla
+  picture: /images/team/Suyash.jpg
+- name: Rishika kumari
+  picture: /images/team/Rishikakumari.jpg
+- name: Riya Kumari
+  picture: /images/team/RiyaKumari.jpeg
