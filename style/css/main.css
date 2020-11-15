@@ -728,7 +728,7 @@ a {
 #team .team-grid-container .team-member {
     text-align: center;
     background-color: black;
-    margin: 30px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
 }
