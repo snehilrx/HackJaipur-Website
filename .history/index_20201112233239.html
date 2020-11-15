@@ -1,0 +1,445 @@
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166857378-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-166857378-1');
+    </script>
+
+    <!--Stylesheets-->
+
+    <title>Hack-o-Vid</title>
+    <link type="text/css" rel="stylesheet" href="./style/css/main.css" />
+    <meta name="keywords" content="HACK-O-VID, HACKTHON, VIRTUAL, ONLINE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="12Hrs Virtual Hackathon" />
+    <meta property="og:description" content="Hack-o-Vid is a community-focused virtual Hackathon, designed especially for the needs of the communities, with problem statements centered around the community itself. Whether you are a beginner or an expert, here is the perfect chance to hone and show your skills and witness the competitive yet inclusive developer community around you!"
+    />
+    <!-- <meta property="og:url" content="https://HackJaipur.com" /> -->
+
+    <script src="https://use.typekit.net/dme1ptj.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./js/clock.js"></script>
+
+    <style>
+        #event-info a {
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        .nav-left img {
+            height: 100px;
+        }
+        
+        .center-vertical {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #footer-logo img {
+            height: 50px;
+            margin-top: -2px;
+            margin-left: 20px;
+        }
+        
+        #devfolio-apply-now {
+            position: relative;
+            left: 5%;
+            display: inline-block;
+            -ms-flex-align: center;
+            -webkit-box-align: center;
+            align-items: center;
+            background-color: #B38E59;
+            border: 2px solid white;
+            border-radius: 3px;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: -ms-flexbox;
+            display: -webkit-box;
+            display: flex;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+            font-size: 18px;
+            font-weight: 600;
+            padding: 12px 20px;
+            text-align: center;
+            /* text-transform: lowercase; */
+        }
+        
+        .bgc {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: black;
+            backdrop-filter: blur(200px);
+        }
+        
+        .bg2 {
+            background-image: url(https://images.unsplash.com/photo-1591467556072-81551049a4d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 100%;
+        }
+        
+        .bg2 {
+            background-image: url(https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 100%;
+        }
+        
+        .bg1 {
+            background-image: url(https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0%;
+        }
+        
+        #devfolio-apply-now:not([disabled]) {
+            cursor: pointer;
+            font-size: 24px;
+        }
+        
+        #devfolio-apply-now:hover {
+            background-color: #2954BF !important;
+            color: #fff;
+        }
+        
+        @media screen and (min-width: 992px) {
+            #mlh-trust-badge {
+                right: 1px;
+                top: 0;
+            }
+        }
+        
+        @media screen and (max-width: 992px) {
+            #mlh-trust-badge {
+                left: 14px;
+                top: 0;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            #hero .social-links-header {
+                position: absolute;
+                left: calc(50% - 3*30px);
+                bottom: 0;
+                height: auto;
+                border-left: 2px solid white;
+                border-right: 2px solid white;
+                border-top: 2px solid white;
+                border-radius: 5px 5px 0px 0px;
+                padding: 10px 30px;
+                transition: all 0.3s ease;
+                display: inline-flex;
+                transform: none;
+                top: unset;
+                border-bottom: unset;
+            }
+            #event-info h1 {
+                font-size: 42px;
+            }
+            body {
+                overflow-x: hidden;
+                width: 100vw;
+            }
+            .devfolio-apply-now {
+                font-size: 16px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-mobile-content-container">
+        <div id="mobile-close">
+            <h1 id="mobile-close">X</h1>
+        </div>
+        <div class="nav-mobile-content">
+            <a href="#event-info">About Us</a>
+            <!-- <a href="#sponsors">Sponsors</a>
+            <a href="#speaker">Speakers</a> -->
+            <a href="#teams">Team</a>
+            <!-- <a href="event-info.html">Event Information</a> -->
+            <!-- <a href="/safeguarding">Safeguarding</a> -->
+        </div>
+    </div>
+
+    <section id="hero">
+        <div class="video-container">
+            <video id="video" width="100%" height="auto" autoplay muted loop="true">
+                    <source src="hackovid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+        </div>
+        <div class="overlay"></div>
+        <div class="dot-back"></div>
+        <div class="navigation">
+            <div class="nav-left">
+            </div>
+            <div class="nav-right">
+                <div class="nav-right-content">
+                    <div class="links">
+                        <a href="hackovid/aboutus">About Us</a>
+                        <a href="hackovid/teams">Team</a>
+                    </div>
+                    <div class="nav-mobile"></div>
+                    <!-- <a id="mlh-trust-badge" class="badge" href="https://mlh.io/seasons/apac-2020/events?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-apac-white.svg" alt="Major League Hacking 2020 Hackathon Season"></a> -->
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <h1>Are you ready for <br/><span class="header-title"><span>Hack-O-Vid</span><span>? </span></span>
+            </h1>
+            <h3>28<sup>th</sup> November, Virtually!!</h3>
+            <a href="http://hackjaipur.devfolio.co" target="_blank">
+                <button id="devfolio-apply-now">
+                        <span class="center-vertical">
+                            <img height="24px" style="margin-right: 12px;" src="dev.svg"/>
+                            Apply with Devfolio
+                        </span>
+                    </button>
+            </a>
+
+        </div>
+        <div class="social-links-header">
+            <a target="_blank" href="https://github.com/"><img id="logo" src="images/github.jpg" /></a>
+            <a target="_blank" href="http://instagram.com/decoders_sit/"><img id="logo" src="images/instagram.svg" /></a>
+            <a target="_blank" href="https://www.linkedin.com/company/decoders-sit"><img id="logo" src="images/linkedin.png" /></a>
+        </div>
+    </section>
+
+    <section id="event-info">
+        <div class="container" id="faq">
+            <div>
+                <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Frequently Asked Questions</h1>
+                <hr/>
+                <div class="faq-post">
+                    <h2>What is <span class="span-capital">Hack-O-Vid?</span></h2>
+                    <p>Hack-O-Vid is a institution level 12Hour virtual Hackathon, designed with the theme of<br> <strong>"Solution To Impact of Covid 19 on Humanity"</strong> problem statements centered around the community itself. Whether you are a beginner
+                        or an expert, here is the perfect chance to hone and show your skills and witness the competitive yet inclusive developer community around you! </p>
+                    <p> In light of the CoronaVirus outbreak, your safety and well-being are our primary concerns. Hence, all the activities related to Hack-O-Vid like talks, and presentations will also be conducted online/virtually. </p>
+                </div>
+                <div class="faq-post">
+                    <h2>Why <span class="span-capital">Hack<span>-O-Vid?</span></span>
+                    </h2>
+                    <p>Hack-O-Vid is the first of its kind Virtual Hackathon.</p>
+                    <p>Hack-O-Vid follows the same culture and seeks for different solutions to various issues the tradition face from time to time. </p>
+                    <p>Hack-O-Vid is a 12Hour Virtual Hackathon where you can accelerate your coding journey in this pandemic.</p>
+                </div>
+
+                <div class="faq-post">
+                    <h2>How much does it cost?</h2>
+                    <p>Hack-O-Vid is absolutely <strong>free</strong> to attend! You can participate in a team of 3-4 Members for free via. the Devfolio link above.</p>
+                </div>
+                <div class="faq-post">
+                    <h2>What are the tracks for Hack-O-Vid?</h2>
+                    <p>We don’t wanna limit you by providing some problem statements and research about them first. That’s why we have some tracks: </p>
+                    <ol>
+                        <li><strong>Diversity</strong> Diversity means the inclusion of all individuals as technology does not discriminate. How can technology help to increase diversity and maintain it?
+                        </li>
+                        <li><strong>Remotely Working </strong>As work from home is becoming is a widespread culture, technology can make the process easier. Any project that makes such an effort will fall into this category.
+                        </li>
+                        <li><strong>Tech and Health </strong>Technology can create sustainable and effective relations between a healthcare professional and the patient. It can also provide a cheaper, faster, and more beneficial solutions to prevent and battle
+                            illnesses.
+                        </li>
+                        <li><strong>Creating Awareness </strong>With the increase in the use of technology, the dangers have also increased. Awareness is the first step towards creating a better society and community. Awareness can be social, technical, or
+                            general.
+                        </li>
+                    </ol>
+                </div>
+                <div class="faq-post">
+                    <h2>Can students Attend?</span>
+                    </h2>
+                    <p> Yes, this is a student-held hackathon only. We would love to have your participation.</p>
+                </div>
+                <div class="faq-post">
+                    <h2>What if I don't know how to code?</h2>
+                    <p>That is not a problem! A great way to learn how to code is by attending a hackathon. It's an event for like-minded people to share what they are interested in and teach each-other what they are passionate about, whether its coding,
+                        electronics or anything else you want to know about. You never know what new skill you might pick up! You can also ask specific questions to our mentors and in the Discord server, where people are there to help. Plus we have planned
+                        numerous workshops and talks for you guys to make the learning process better.</p>
+                </div>
+                <div class="faq-post">
+                    <h2>Abstract</h2>
+                    <p>You can download the format for Abstract, which can be found <a href="http://decoderssit.com/HACK-O-VIDAbstract.pdf">here</a>.</p>
+                </div>
+                <p>Register your team now for Hack-O-Vid at <a href="put link here">Devfolio</a>!</p>
+            </div>
+        </div>
+
+        <div class="bgc">
+            <div class="bg1" aos="fade" aos-duration="500"></div>
+            <div class="bg2" aos="fade" aos-duration="500"></div>
+            <div class="bg3" aos="fade" aos-duration="500"></div>
+        </div>
+        <!-- <div id="team-slit-bottom"></div> -->
+    </section>
+
+    <!-- <section id="speaker"></section>
+        <section id="team">
+            <div class="container team-container">
+                <div class="team-container__header">
+                    <h2>Meet the Speakers</h2>
+                    <hr/>
+                    <h3>If you are interested in mentoring for the hackathon apply <a href="https://hackjaipur.typeform.com/to/ZxK5VK">here.</a></h3>
+                </div>
+                <div class="team-grid-container">
+                    {% for person in site.data.speaker %}
+                    <div class="team-grid team-member">
+                        {% if person.twitter %}
+                        <a class="team-member__picture_container" href="https://twitter.com/{{ person.twitter }}">
+                        {% else %}
+                        <a class="team-member__picture_container">
+                        {% endif %}
+                        <img class="team-member__picture" src="{{ person.picture }}">
+                        </a>
+                        <div class="team-member__text">
+                            <div class="team-member__text__content">
+                                <h3>{{ person.name }}</h3>
+                                <h5>{{ person.role }}</h5>
+                                <!-- <h3>{{ person.topic }}</h3> -->
+    <!-- </div>
+    </div>
+    </div>
+    </div>
+    </div> -->
+    <!-- <div id="team-slit-bottom"></div> -->
+    <!-- </section> -->
+
+    <!-- <section id="team"></section>
+        <section id="team">
+            <div class="container team-container">
+                <div class="team-container__header">
+                    <h2>Meet the team</h2>
+                    <hr/>
+                    <h3>Without a team of dedicated volunteers this hackathon simply would not happen. Here's your chance to meet the awesome people who are behind <span class="span-capital">HackJaipur.</span></h3>
+                </div>
+                <div class="team-grid-container">
+                    {% for person in site.data.team %}
+                    <div class="team-grid team-member">
+                        {% if person.twitter %}
+                        <a class="team-member__picture_container" href="https://twitter.com/{{ person.twitter }}">
+                        {% else %}
+                        <a class="team-member__picture_container">
+                        {% endif %}
+                        <img class="team-member__picture" src="{{ person.picture }}">
+                        </a>
+                        <div class="team-member__text">
+                            <div class="team-member__text__content">
+                                <h3>{{ person.name }}</h3>
+                                <h5>{{ person.role }}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="team1-slit-bottom"></div>
+        </section> -->
+    <!-- <footer>
+            <div id="footer-logo">
+               <h5 style="color:#fff"><a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf?fbclid=IwAR2vbP-bruJ_ZyL9D0bamJ-15OxadEtm0tv4l1EYBBkNnJ5-6XoUe0Zd2ZE" style="color:#fff">Moral Code of Conduct &nbsp;&nbsp; *&nbsp;&nbsp;&nbsp; </a> Contact us: <a href="mailto:support@hackjaipur.com" style="color:#fff">support@hackjaipur.com</a></h5>
+            </div>
+            <div class="social-links" id="footer-social">
+                <a target="_blank" href="https://www.linkedin.com/company/HackJaipur/"><img src="images/linkedin.png"/></a>
+                <a target="_blank" href="https://github.com/heromayank2/HackJaipur-Website"><img src="images/github.jpg"/></a>
+                <a target="_blank" href="https://twitter.com/HackJaipur/"><img id="twitter" src="images/twitter.svg"/></a>
+                <a target="_blank" href="https://instagram.com/hackjaipur/"><img id="logo" src="images/instagram.svg" /></a>
+                <a target="_blank" href="https://telegram.hackjaipur.com"><img src="images/telegram.png"/></a>
+            </div>
+        </footer> -->
+
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $('.nav-mobile').on('click', function() {
+            $('.nav-mobile-content-container').css({
+                maxHeight: '100%',
+                height: '100%',
+                opacity: 1
+            })
+        });
+        $('#mobile-close').on('click', function() {
+            $('.nav-mobile-content-container').css({
+                opacity: 0,
+                maxHeight: '0px'
+            });
+        });
+    </script>
+
+    <script>
+        var myVideo = document.getElementById('video');
+        if (typeof myVideo.loop == 'boolean') { // loop supported
+            myVideo.loop = true;
+        } else { // loop property not supported
+            myVideo.on('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+        }
+        myVideo.play();
+    </script>
+    <!-- Twitter universal website tag code -->
+    <script>
+        ! function(e, t, n, s, u, a) {
+            e.twq || (s = e.twq = function() {
+                    s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+                }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+                a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+        }(window, document, 'script');
+        // Insert Twitter Pixel ID and Standard Event data below
+        twq('init', 'o3tcd');
+        twq('track', 'PageView');
+    </script>
+    <!-- End Twitter universal website tag code -->
+    <!--<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" 
+   href="https://mlh.io/seasons/apac-2020/events?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=yellow" 
+   target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-apac-yellow.svg" 
+   alt="Hack-O-Vid 2020 Virtual Hackthon" style="width:100%"></a>-->
+</body>
+
+</html>

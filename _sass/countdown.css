@@ -1,0 +1,32 @@
+#countdown div {
+  text-align: center;
+  display: inline-block;
+  font-family: "ingra", Arial;
+  margin: 20px;
+}
+
+#countdown div .days, #countdown div .hours, #countdown div .minutes, #countdown div .seconds, #countdown div .smalltext {
+  color: #fff;
+  display: block;
+  font-size: xx-large;
+}
+
+#countdown div .smalltext {
+  color: #fff;
+  font-size: medium;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  #countdown div {
+    margin: 5px;
+  }
+  #countdown .days, #countdown .hours, #countdown .minutes, #countdown .seconds {
+    font-size: 20px !important;
+  }
+  #countdown .smalltext {
+    font-size: 15px !important;
+  }
+}
+/*# sourceMappingURL=countdown.css.map */
