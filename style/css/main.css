@@ -720,10 +720,6 @@ a {
     margin: 15px 0px 25px 0px;
 }
 
-#team .team-grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
 #team .team-grid-container .team-member {
     text-align: center;
@@ -771,24 +767,28 @@ a {
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%);
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 66%);
 }
+#team .team-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 @media screen and (max-width: 1500px) {
     .team-grid-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr) !important;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1700px) {
     .team-grid-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr) !important;
     }
+}
+@media screen and (max-width: 600px){
+    .team-grid-container {
+    grid-template-columns: repeat(2, 1fr) !important;
 }
 
-@media screen and (max-width: 700px) {
-    .team-grid-container {
-        grid-template-columns: 1fr;
-    }
-}
 
 footer {
     height: 80px;
